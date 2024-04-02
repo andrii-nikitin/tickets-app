@@ -1,4 +1,4 @@
-describe('ticket-api tests', () => {
+describe('tickets-api tests', () => {
   test('Except src/index.ts to log "Thanks for using TPG!"', () => {
     const logSpy = jest.spyOn(console, 'log')
 

@@ -1,3 +1,3 @@
-# Ticket-api
+# Tickets-API
 
 backend for ticket app.
