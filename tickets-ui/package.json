@@ -14,7 +14,6 @@
   "author": "andrii-nikitin <68604409+andrii-nikitin@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
-    "@jest/types": "^28.1.5",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.12.2",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
