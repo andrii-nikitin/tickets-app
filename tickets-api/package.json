@@ -9,7 +9,8 @@
     "start": "ts-node src/index.ts",
     "release": "standard-version",
     "test:local": "jest --setupFiles dotenv/config --ci -i --forceExit",
-    "test:ci": "jest --ci -i"
+    "test:ci": "jest --ci -i",
+    "format": "npx prettier . --write"
   },
   "author": "andrii-nikitin <https://github.com/andrii-nikitin>",
   "license": "MIT",

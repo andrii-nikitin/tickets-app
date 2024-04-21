@@ -1,13 +1,12 @@
-function createTicket(req, res) {
-  const eventId = req.params?.eventId;
-}
+module.exports.createTicket = function (req, res) {
+  const ticket = req.body || {};
+  ticket.id = Math.floor(Math.random() * 100000);
+  ticket.eventId = req.params?.eventId;
+  res.status(200).json(ticket);
+};
 
-function getTicket(req, res) {
+module.exports.getTicket = function (req, res) {
   const eventId = req.params?.eventId;
   const ticketId = req.params?.id;
-
-  const ticket = { ticketId, eventId };
-  res.send(`Your ticket for event is : ${JSON.stringify(ticket)}`);
-}
-
-module.exports = { createTicket, getTicket };
+  res.status(200).json({ ticketId, eventId });
+};

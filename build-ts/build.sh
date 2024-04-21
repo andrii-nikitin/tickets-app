@@ -5,7 +5,7 @@ docker build -t com.andriidnikitin.tickets/tickets-api .
 cd ..
 cd tickets-ui
 npm i
-docker build -t com.andriidnikitin.tickets/tickets-api .
+docker build -t com.andriidnikitin.tickets/tickets-ui .
 cd ..
-cd build
+cd build-ts
 docker-compose up
